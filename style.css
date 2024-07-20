@@ -151,8 +151,7 @@ img {
 
   .sidenav {
     padding: 0 30px;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
   }
 
   .sidenav li a {
