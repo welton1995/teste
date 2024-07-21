@@ -16,7 +16,7 @@ button:hover {
   cursor: pointer;
 }
 
-input[type="text"], input[type="password"] {
+input[type="email"], input[type="password"] {
   font-size: 1.5em;
   border-radius: 5px;
   color: hsl(221, 94%, 74%);
@@ -27,14 +27,15 @@ input[type="text"], input[type="password"] {
   outline: none;
 }
 
-input[type="text"]::placeholder, input[type="password"]::placeholder {
+input[type="email"]::placeholder, input[type="password"]::placeholder {
   color: #7da5fb;
+  font-size: 1em;
   font-style: italic;
+  padding:2px 5px;
 
 }
 
-input[type="text"]:focus {
-  /* border: 1px solid #7da5fb; */
+input[type="email"]:focus {
   color: #7da5fb;
   outline: none;
   border-bottom: 1px solid #7da5fb;
