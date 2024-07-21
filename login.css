@@ -11,9 +11,19 @@ button {
   transition: 0.3s;
 }
 
+#btnEntrar {
+  width: 80%;
+  margin: 60px 0 0 0;
+}
+
 button:hover {
   background: #0400f1;
   cursor: pointer;
+}
+
+#email, #passwd {
+  width: 80%;
+  margin-bottom: 15px;
 }
 
 input[type="email"], input[type="password"] {
