@@ -24,7 +24,7 @@ button:hover {
 #email, #passwd {
   color:#7da5fb;
   width: 80%;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 760px){
