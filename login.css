@@ -19,10 +19,11 @@ button:hover {
 input[type="text"], input[type="password"] {
   font-size: 1.5em;
   border-radius: 5px;
-  color: #7da5fb;
-  padding: 0px;
+  color: hsl(221, 94%, 74%);
+  padding: 2px 5px;
   margin: 0;
-  border: 1px solid #7da5fb;
+  border: none;
+  border-bottom: 1px solid #7da5fb8e;
   outline: none;
 }
 
@@ -33,9 +34,11 @@ input[type="text"]::placeholder, input[type="password"]::placeholder {
 }
 
 input[type="text"]:focus {
-  border: 1px solid #7da5fb;
+  /* border: 1px solid #7da5fb; */
   color: #7da5fb;
   outline: none;
+  border-bottom: 1px solid #7da5fb;
+
 }
 
 .content {
