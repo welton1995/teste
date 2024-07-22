@@ -89,8 +89,10 @@ img {
 }
 
 .header nav a {
+  width: 8rem;
+  text-align: center;
   display: block;
-  padding: 20px;
+  padding: 10px;
   color: white;
   font-size: 1.25em;
   background: rgba(0,0,0,.1);
