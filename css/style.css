@@ -65,6 +65,9 @@ img {
     "footer"
     ;
   }
+  .header {
+    padding: 15px;
+  }
 }
 
 .header {
@@ -87,7 +90,7 @@ img {
 
 .header nav a {
   display: block;
-  padding: 10px;
+  padding: 20px;
   color: white;
   font-size: 1.25em;
   background: rgba(0,0,0,.1);
