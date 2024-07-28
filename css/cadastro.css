@@ -26,18 +26,6 @@ button:hover {
   margin-bottom: 40px;
 }
 
-@media (max-width: 760px){
-  #name, #email, #passwd, #checkPasswd {
-    color:#7da5fb;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  #btnEntrar, #btnCadastrar {
-    width: 100%;
-    margin: 20px 0 0 0;
-  }
-}
-
 input[type="text"], input[type="email"], input[type="password"] {
   font-size: 1.5em;
   border-radius: 5px;
@@ -71,8 +59,24 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   grid-template-columns: 1fr;
 }
 
+.footer {
+  margin-top: 175px;
+}
+
 @media (max-width: 760px){
+  #name, #email, #passwd, #checkPasswd {
+    color:#7da5fb;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #btnEntrar, #btnCadastrar {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
   .header {
     padding: 15px;
+  }
+  .footer {
+    margin-top: 105px;
   }
 }
